@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # FastTrack Quickstart
 
 ## Install Dependencies
@@ -17,7 +21,7 @@ docker run --rm -p 5000:5000 -ti gresearch/fasttrack
 
 Verify that you can see the UI by navigating to http://localhost:5000/.
 
-![FastTrack UI](images/main_ui.jpg)
+![FastTrack UI](./images/main_ui.jpg)
 
 ## Run a quick test script
 
@@ -33,7 +37,7 @@ python3 minimal.py
 
 After running this script, you should see the following output from http://localhost:5000/aim/:
 
-![FastTrack UI](images/runs_ui.jpg)
+![FastTrack UI](./images/runs_ui.jpg)
 
 From here you can check out the metrics and run information to see more details about the run.
 
