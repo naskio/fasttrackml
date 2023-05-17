@@ -18,3 +18,6 @@ tests/*/*.src
 # Quick start
 outputs
 poetry.lock
+
+# Misc
+.DS_Store
